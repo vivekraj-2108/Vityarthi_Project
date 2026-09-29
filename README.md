@@ -1,12 +1,8 @@
 # Farm Water Manager
 
-A simple Python-based console application designed to manage irrigation usage for farmers. The project records water consumption and motor usage, calculates bills and estimated profit, manages configurable rates, and provides backup and restore functionality.
-
-The main goal of this project is to demonstrate how Python can be used to build a practical real-world application using Python fundamentals, Object-Oriented Programming, file handling, data storage, validation, and testing.
+A simple Python-based console application designed to manage irrigation usage for farmers. This project records water consumption, motor usage, calculates bills, estimated profit, manages configurable rates, provides backup and restore functionality.
 
 ## 1. Project Description
-
-In a shared irrigation system, multiple farmers may use the same water source and motor. Manually calculating water usage, motor charges, and crop-related income can be time-consuming and error-prone.
 
 Farm Water Manager provides a simple console-based solution where the operator can:
 
@@ -79,8 +75,6 @@ The project supports:
 
 ### 2.8 Testing
 
-The project includes unit tests using Python's built-in `unittest` framework.
-
 The tests check important parts of the application, including:
 
 1. Data models.
@@ -101,13 +95,12 @@ Python 3.8+         | Main programming language
 `random`            | Generating random rewards             
 `unittest`          | Testing application functionality     
 
-The project uses Python's standard library and does not require external packages.
 
 ## 4. How to Run
 
 ### 4.1 Prerequisites
 
-Python 3.8 or newer should be installed on your system.
+Python 3.8 should be installed on your system.
 
 Check the installed Python version:
 
@@ -133,11 +126,7 @@ cd Vityarthi_Project
 python main.py
 ```
 
-The application will start in the terminal.
-
 ## 5. Application Menu
-
-The application provides the following options:
 
 1 Add
 2 View
@@ -194,13 +183,7 @@ Creates a backup of the current farmer data.
 
 Restores previously saved farmer data.
 
-### 5.9 Exit
-
-Saves the current data and closes the application.
-
 ## 6. How to Run Tests
-
-The project uses Python's built-in `unittest` framework.
 
 Run the tests using:
 
@@ -208,102 +191,11 @@ Run the tests using:
 python -m unittest -v
 ```
 
-This runs the available test cases and displays their results in the terminal.
-
-## 7. Python Topics Learned
-
-Through this project, I learned and applied the following Python concepts:
-
-### 7.1 Variables and Data Types
-
-Used different Python data types to store and process application information.
-
-### 7.2 Conditional Statements
-
-Used `if`, `elif`, and `else` for decision-making and validation.
-
-### 7.3 Loops
-
-Used loops for menu execution and input validation.
-
-### 7.4 Functions
-
-Created functions for different operations such as:
-
-1. Taking user input.
-2. Calculating bills.
-3. Calculating profit.
-4. Saving data.
-5. Loading data.
-6. Generating rewards.
-
-### 7.5 Object-Oriented Programming
-
-Used classes to represent different parts of the application, including farmers, prices, and the farmer registry.
-
-### 7.6 Dataclasses
-
-Used Python's `@dataclass` to create structured data objects.
-
-### 7.7 Properties
-
-Used `@property` for controlled access to object data.
-
-### 7.8 Class Methods
-
-Used `@classmethod` for creating objects from stored data.
-
-### 7.9 Exception Handling
-
-Used `try` and `except` to handle invalid input and file-related errors.
-
-### 7.10 File Handling
-
-Learned how to:
-
-1. Read data from files.
-2. Write data to files.
-3. Create directories.
-4. Work with file paths.
-5. Create and restore backups.
-
-### 7.11 CSV
-
-Used the `csv` module to store and retrieve farmer records.
-
-### 7.12 JSON
-
-Used the `json` module to store price and configuration data.
-
-### 7.13 Modules and Imports
-
-Learned how to use Python modules and import required functionality between files.
-
-### 7.14 Random Module
-
-Used the `random` module to generate reward percentages.
-
-### 7.15 Unit Testing
-
-Used Python's `unittest` framework to test different parts of the application.
-
-### 7.16 Input Validation
-
-Implemented validation for:
-
-1. Empty input.
-2. Invalid menu choices.
-3. Invalid numerical values.
-4. Negative values.
-5. Invalid stored data.
-
-## 8. Learning Outcomes
-
-Through this project, I learned how to build a complete Python application for a real-world problem.
+## 7. Learning Outcomes
 
 The main things I learned are:
 
-1. Writing Python programs using functions and classes.
+1. Writing Python programs using functions.
 2. Applying Object-Oriented Programming concepts.
 3. Working with files and stored data.
 4. Using CSV and JSON.
